@@ -15,6 +15,11 @@
   - [HeapSort.java][Code2]
 
 
+## Algorithms
+
+  - [HeapSort][md1]
+
+
 ## 1 Introduction
 
 Welcome to the first lab. These labs are generally intended to let you explore concepts introduced in the course
@@ -219,3 +224,4 @@ java HeapSort           # Do not add the ".class" extension
 
 [Code1]: https://github.com/MarcoXZh/OOPJavaCourse/blob/master/Lab1%20Eclipse%20IDE/components.jar
 [Code2]: https://github.com/MarcoXZh/OOPJavaCourse/blob/master/Lab1%20Eclipse%20IDE/HeapSort.java
+[md1]: https://github.com/MarcoXZh/OOPJavaCourse/blob/master/Lab1%20Eclipse%20IDE/HeapSort.md

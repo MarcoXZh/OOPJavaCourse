@@ -17,6 +17,12 @@
   - [HeapTree.java][Code3]
 
 
+## Algorithms
+
+  - [RedBlackTree (Part 1)][md1]
+  - [HeapTree][md2]
+
+
 ## 1 Introduction
 
 
@@ -179,3 +185,5 @@ Remember this is only a lab -- do not write a heap in such style in your work.
 [Code1]: https://github.com/MarcoXZh/OOPJavaCourse/blob/master/Lab2%20Debugging/ResearchGroups.java
 [Code2]: https://github.com/MarcoXZh/OOPJavaCourse/blob/master/Lab2%20Debugging/RedBlackTree.java
 [Code3]: https://github.com/MarcoXZh/OOPJavaCourse/blob/master/Lab2%20Debugging/HeapTree.java
+[md1]: https://github.com/MarcoXZh/OOPJavaCourse/blob/master/Lab2%20Debugging/RedBlackTree1.md
+[md2]: https://github.com/MarcoXZh/OOPJavaCourse/blob/master/Lab2%20Debugging/HeapTree.md

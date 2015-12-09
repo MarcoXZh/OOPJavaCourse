@@ -14,6 +14,11 @@
   - [GenericRedBlackTree.java][Code3]
 
 
+## Algorithms
+
+  - [RedBlackTree (Part 2)][md1]
+
+
 ## 1 Introduction
 
 Generics, or parameterized types, are a facility of generic programming that was added to the Java programming language
@@ -195,3 +200,4 @@ Note you need also finish the `delete` method.
 [Code1]: https://github.com/MarcoXZh/OOPJavaCourse/blob/master/Lab4%20Generics/GenericStack.java
 [Code2]: https://github.com/MarcoXZh/OOPJavaCourse/blob/master/Lab4%20Generics/GenericHeap.java
 [Code3]: https://github.com/MarcoXZh/OOPJavaCourse/blob/master/Lab4%20Generics/GenericRedBlackTree.java
+[md1]: https://github.com/MarcoXZh/OOPJavaCourse/blob/master/Lab4%20Generics/RedBlackTree2.md

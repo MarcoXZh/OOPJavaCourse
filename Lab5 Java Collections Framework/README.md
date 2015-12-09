@@ -13,6 +13,11 @@
   - [build.xml][Code2]
 
 
+## Algorithms
+
+  - [SkipList][md1]
+
+
 ## 1 Collections
 
 A *collection* (sometimes called a container) is simply an object that groups multiple elements into a single unit.
@@ -166,3 +171,4 @@ Now by default, when you execute ANT, it will automatically compile, build a jar
 
 [Code1]: https://github.com/MarcoXZh/OOPJavaCourse/blob/master/Lab5%20Java%20Collections%20Framework/SkipList.java
 [Code2]: https://github.com/MarcoXZh/OOPJavaCourse/blob/master/Lab5%20Java%20Collections%20Framework/build.xml
+[md1]: https://github.com/MarcoXZh/OOPJavaCourse/blob/master/Lab5%20Java%20Collections%20Framework/SkipList.md
