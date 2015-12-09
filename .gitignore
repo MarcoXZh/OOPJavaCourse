@@ -1,0 +1,4 @@
+# Eclipse Compilations
+bin/
+*.class
+
