@@ -7,7 +7,7 @@ All you need is the standard version of Java -- **Java SE**, but it has two dist
   - If you need to first compile source codes and then run them, you'll need JDK -- it contains both JRE and compiler.
     This is the distribution we need.
 
-So download JDK (Now the latest is Java 8: Java SE 8u66) and install it --
+So download JDK (Now the latest is Java 8: Java SE 8u102, as of Sept. 22, 2016) and install it --
 http://www.oracle.com/technetwork/java/javase/downloads/index.html.
 
 ## You need setup environment variables
@@ -21,7 +21,7 @@ Click *New...* to add the following variables:
 
   Name        |  Value                                               |  Note
 :------------ | :--------------------------------------------------- | :----------------------------------
-  `JAVA_HOME` | `C:\Program Files\Java\jdk1.8.0_66`                  | Use your actual installation path
+  `JAVA_HOME` | `C:\Program Files\Java\jdk1.8.0_102`                 | Use your actual installation path
   `CLASSPATH` | `.;%JAVA_HOME%\lib\dt.jar;%JAVA_HOME%\lib\tools.jar` | Don't miss the first character `.`
 
 Next, find `PATH` variable and edit it: append the following to it
