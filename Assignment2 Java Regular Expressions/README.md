@@ -1,6 +1,6 @@
 # Assignment 2: Java Regular Expressions
 
-  - Source code: [CookieTest.java][Code1]
+  - Source code: [*CookieTest.java*][Code1]
 
 
 ## Valid or invalid that is the question?
@@ -15,7 +15,7 @@ precise definition of what is a valid cookie.
 **You are required to produce a Java program, which uses the regular expression to answer the question: "Is this cookie
 (supplied as an input) valid or not?"**
 
-Where validity means corresponding to the definition found in RFC 6265 (Section 4.4.1):
+Where validity means corresponding to the definition found in RFC 6265 (Section 4.1.1):
 
 ```sh
   set-cookie-header = "Set-Cookie:" SP set-cookie-string
@@ -68,17 +68,17 @@ Server: Apache-Coyote/1.1
  4. Set-Cookie: ns1=; Domain=                                # empty Domain
  5. Set-Cookie: ns1=; Domain=.srv.a.com-0                    # Domain=host_name
  6. Set-Cookie: lu=Rg3v;Expires=Wed, 19 Nov 2008 16:35:39 GMT; Path=/; Domain=.example.com; HttpOnly
- 7. Set-Cookie:                                   # empty cookie-pair
- 8. Set-Cookie: sd                                # no "="
- 9. Set-Cookie: =alss/0.foobar^                   # empty name
-10. Set-Cookie: ns@1=alss/0.foobar^               # illegal name
-11. Set-Cookie: ns1=alss/0.foobar^;               # trailing ";"
-12. Set-Cookie: ns1=; Expires=Wed 19 Nov 2008 16:35:39 GMT  # illegal Expires value
-13. Set-Cookie: ns1=alss/0.foobar^; Max-Age=01    # illegal Max-Age: starting 0
-14. Set-Cookie: ns1=alss/0.foobar^; Domain=.0com  # illegal Domain: starting 0
-15. Set-Cookie: ns1=alss/0.foobar^; Domain=.com-  # trailing non-letter-digit Domain
-16. Set-Cookie: ns1=alss/0.foobar^; Path=         # empty Path
-17. Set-Cookie: ns1=alss/0.foobar^; httponly      # lower case of "HttpOnly"
+ 7. Set-Cookie:                                              # empty cookie-pair
+ 8. Set-Cookie: sd                                           # no "="
+ 9. Set-Cookie: =alss/0.foobar^                              # empty name
+10. Set-Cookie: ns@1=alss/0.foobar^                          # illegal name
+11. Set-Cookie: ns1=alss/0.foobar^;                          # trailing ";"
+12. Set-Cookie: ns1=; Expires=Wed 19 Nov 2008 16:35:39 GMT   # illegal Expires value
+13. Set-Cookie: ns1=alss/0.foobar^; Max-Age=01               # illegal Max-Age: starting 0
+14. Set-Cookie: ns1=alss/0.foobar^; Domain=.0com             # illegal Domain: starting 0
+15. Set-Cookie: ns1=alss/0.foobar^; Domain=.com-             # trailing non-letter-digit Domain
+16. Set-Cookie: ns1=alss/0.foobar^; Path=                    # empty Path
+17. Set-Cookie: ns1=alss/0.foobar^; httponly                 # lower case of "HttpOnly"
 
 Cache-Control: private
 Pragma: no-cache
