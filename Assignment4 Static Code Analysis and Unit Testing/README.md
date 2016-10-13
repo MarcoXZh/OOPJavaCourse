@@ -1,6 +1,6 @@
 # Assignment 4: Static Code Analysis and Unit Testing
 
-  - Source code: [CodingHorror.java][Code1]; [UnitTesting][Code2].
+  - Source code: [*CodingHorror.java*][Code1]; [*UnitTesting*][Code2].
 
 
 Import the project from the zip file to read the source codes.
@@ -22,7 +22,7 @@ think iteration.
 *Note 1*: Findbugs is likely to report a sixth error, Internationalization. It is something that goes beyond the scope
 of previous Java classes so we will ignore this one.
 
-*Note 2*: If you choose Firebugs version 3.0.0 or earlier (now the newest version is 3.0.1), you can only get four bugs
+*Note 2*: If you choose Findbugs version 3.0.0 or earlier (now the newest version is 3.0.1), you can only get four bugs
 detected.
 
 Compile the CodingHorror.java source code into bytecodes file, and then start up the FindBugs program to analyze it:
@@ -50,7 +50,7 @@ Your task is to complete the 5 following checkpoints and submitting your final a
 Navigate to *Test Suites* > *Question1.java*, and run it as JUnit Test. An output will come up and inform you that there
 are errors! This is to be expected, don't panic! Now you need to fix these errors.
 
-Your task in this step is to fix the errors and implement only the required functionality (*src* > *Calculator.java*)
+Your task in this step is to fix the errors and implement only the required functionality (*Source* > *Calculator.java*)
 and re-run the Question 1 test suite.
 
 **CHECKPOINT 1**: Test Suite "Question 1" runs without any problems, but other test suites fail.
@@ -69,7 +69,7 @@ functionality and re-run the Question 3 test suite.
 
 **CHECKPOINT 3**: Test Suite "Question 3" runs without any problems, but higher test suites fail.
 
-### 4. Create Test Cases Within "SqureRootTests.java"
+### 4. Create Test Cases within "*SqureRootTests.java*"
 
 Navigate to *Test Suites* > *Question4.java*, and run it as JUnit Test. Question 4 will run with no problems because
 there are no test cases defined in SquareRootTests.java. So open *Test Cases* > *SquareRootTests.java*. Fill in the
