@@ -110,11 +110,11 @@ will **only** have the attributes and methods mentioned in the diagram.
                 +-------------     -------------+
                 |                               |
   -----------------------------    ----------------------------  implements   --------------------
-  |         Empolyee          |    |         Customer         | ------------> |   <<interface>>  |
+  |         Employee          |    |         Customer         | ------------> |   <<interface>>  |
   -----------------------------    ----------------------------               |    Printable     |
   | - baseSalary: double      |    | - projPrice: double      |   +---------> --------------------
   |---------------------------|    ----------------------------   |           | + PrintInfo():   |
-  | + Empolyee(               |    | + Customer(              |   |           |     String       |
+  | + Employee(               |    | + Customer(              |   |           |     String       |
   |     name: String,         |    |     name: String,        |   |           --------------------
   |     baseSalary: double)   |    |     projPrice: double)   |   |
   | + getBaseSalary(): double |    | + getProjPrice(): double |   |
