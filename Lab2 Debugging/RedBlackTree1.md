@@ -1,6 +1,8 @@
 # Red Black Tree (Part 1)
 
-Reference: https://en.wikipedia.org/wiki/Red%E2%80%93black_tree
+Reference: https://en.wikipedia.org/wiki/Red%E2%80%93black_tree 
+
+(**Note the rotations in insertion of this reference is buggy!**)
 
 
 ## A RBT is a *binary search tree*
@@ -103,22 +105,22 @@ Reference: https://en.wikipedia.org/wiki/Red%E2%80%93black_tree
     + Otherwise, create a new node with the *key-value* to replace the *NIL* node, **add two new *NIL* children to it**,
       and fix its color
     + If it's the first insertion, point *root* to the new node
+    + Set the *node*'s color to red, and then balance the tree.
 
   - Step 2: balance the tree -- `fixInsColor(node)`
-    + Set the *node*'s color to red, and then:
     + Case 1, *node* is *root* (first insertion): set color to black, done
     + Case 2, *node*'s *parent* exists and is black: tree still valid, done
     + Case 3, both *parent* and *uncle* exist and are red: set their colors to black, set *grandparent*'s color
       (*grandparent* must exist) to red, and fix *grandparent*'s color -- invoke `fixInsColor(gp)`, done
     + Case 4, *parent* exists and is red; *uncle* exists and is black:
-        * If *node* is a rChild and *parent* is a lChild: **rotate right on _parent_**, set *node* to *node*'s *lChild*,
+        * If *node* is a rChild and *parent* is a lChild: rotate **left** on **_node_**, set *node* to *node*'s *lChild*,
           and go on to Case 5
-        * If *node* is a lChild and *parent* is a rChild: **rotate left on _parent_**, set *node* to *node*'s *rChild*,
+        * If *node* is a lChild and *parent* is a rChild: rotate **right** on **_node_**, set *node* to *node*'s *rChild*,
           and go on to Case 5
     + Case 5, *parent* exist and is red; *uncle* exist and is black; both *node* and *parent* shall be lChild/rChild:
       set *parent*'s color to black and *grandparent*'s color to red, and:
-        * If *node* is a lChild: **rotate right on _grandparent_**, done
-        * If *node* is a rChild: **rotate left on _grandparent_**, done
+        * If *node* is a lChild: rotate **right** on **_parent_**, done
+        * If *node* is a rChild: rotate **left** on **_parent_**, done
 
 ```text
   ---------------------------------   ------------------------------------   -------------------------------------
