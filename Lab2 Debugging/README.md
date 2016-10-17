@@ -140,7 +140,7 @@ Add a breakpoint for class loading. Debug your program again and verify that the
 loaded.
 
 
-## 3 Deliverable 2 -- Red Black Tree / Heap Tree
+## 3 Deliverable 2 -- Red Black Tree / Heap Tree (choose one by the instructor)
 
 Let's try something harder. It is where you really need to understand how to use debugging facilities. When things go
 wrong if you cannot use a debugger, you are DEAD.
