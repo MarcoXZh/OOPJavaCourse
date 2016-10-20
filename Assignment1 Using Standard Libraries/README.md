@@ -1,5 +1,7 @@
 # Assignment 1: Using Standard Libraries
 
+  - Full mark: 10 points
+
   - Source code: [*daysold.java*][Code1]
 
 A programmer spends a great deal of their time using other people's solutions including predefined solutions which are
