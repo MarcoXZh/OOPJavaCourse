@@ -1,5 +1,7 @@
 # Assignment 3: Exception Handling
 
+  - Full mark: 30 points
+
   - Source code: [*Calculator.java*][Code1]
 
 
