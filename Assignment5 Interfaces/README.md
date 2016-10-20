@@ -1,6 +1,8 @@
 # Assignment 5: Interfaces
 
-  - Source code: [Coffee.java][Code1]; [CoffeeTest.java][Code2]; [PersonTest.java][Code3].
+  - Full mark: 10 points
+
+  - Source code: [*Coffee.java*][Code1]; [*CoffeeTest.java*][Code2]; [*PersonTest.java*][Code3].
 
 
 ## Exercise 1
