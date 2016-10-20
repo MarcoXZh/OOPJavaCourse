@@ -1,5 +1,7 @@
 # Assignment 2: Java Regular Expressions
 
+  - Full mark: 20 points
+
   - Source code: [*CookieTest.java*][Code1]
 
 
