@@ -1,5 +1,7 @@
 # Assignment 4: Static Code Analysis and Unit Testing
 
+  - Full mark: 20 points
+
   - Source code: [*CodingHorror.java*][Code1]; [*UnitTesting*][Code2].
 
 
