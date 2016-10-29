@@ -217,7 +217,7 @@ uint64_t fnv(void *b, int c) {
 **Hint 1**: `h` is too big even for `long`, because Java doesn't have unsigned version of `int`/`long`. So you may need
 `BigInteger`.
 
-**Hint 2**: `^` in C is "bitwise AND", not `Math.pow`.
+**Hint 2**: `^` in C is "bitwise XOR", not `Math.pow`.
 
 **Hint 3**: Don't forget the overflow of higher bits, or you may get incredibly large number. Such number is incorrect,
 and what's more, it may crash Eclipse.
