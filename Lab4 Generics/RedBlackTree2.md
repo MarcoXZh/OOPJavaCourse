@@ -14,17 +14,17 @@ caution.
     + Otherwise (*node* found):
         1. If *node* has two non-*NIL* children, then the next larger node is the left-most node in *node.rChild*'s
            subtree, and this *larger* has at least a *NIL* child. Swap *node* with *larger*
-        2. The *node* now has at least one *NIL* child: set *child* to *NIL*'s sibling (*child* may also be *NIL*)
+        2. The *node* now has at least one *NIL* child: set *node* to *NIL*'s sibling (this sibling may also be *NIL*)
         3. If *node* is not *root* (*parent* not `null`), then link *child* to *parent*; otherwise:
             * If *child* is *NIL*, then empty the tree
             * Otherwise, set *root* to *child*
-        4. If *node*'s color is black:
+        4. If *node*'s color was black:
             * If *child*'s color is red, simply set *child*'s color to black
             * Otherwise, fix *child*'s color by Step 2
         5. Return *node.value*
 
   - Step 2: balance the tree -- `fixDelColor(node)`
-    + Case 1, *node* is *root*: set *node*'s color to black, and done
+    + Case 1, *node* is *root*: done (it's already black)
     + Case 2, *sibling* of *node* is red:
         * Set *parent*'s color to red, and *sibling*'s color to black
         * **Rotate left/right on _sibling_** if *node* is a lChild/rChild
