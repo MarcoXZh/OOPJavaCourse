@@ -5,8 +5,9 @@
 interface Animal {
     /**
      * An animal speaks
+     * @return              {@code String} animal speaks
      */
-    public void speak ();
+    public String speak ();
 }
 
 /**
@@ -16,9 +17,10 @@ interface Animal {
 class Lion implements Animal {
     /**
      * The lion speaks
+     * @return              {@code String} lion speaks
      */
-    public void speak() {
-        System.out.println("ROAR");
+    public String speak() {
+        return "ROAR";
     }
 }
 
@@ -29,9 +31,10 @@ class Lion implements Animal {
 class Mouse implements Animal {
     /**
      * The mouse speaks
-     */
-    public void speak() {
-        System.out.println("SQUEAK");
+     * @return              {@code String} mouse speaks
+    */
+    public String speak() {
+        return "SQUEAK";
     }
 }
 
@@ -42,9 +45,10 @@ class Mouse implements Animal {
 class Bison implements Animal {
     /**
      * The bison speaks
+     * @return              {@code String} bison speaks
      */
-    public void speak() {
-        System.out.println("BELLOW");
+    public String speak() {
+        return "BELLOW";
     }
 }
 
@@ -80,18 +84,23 @@ public class JavaDPExample {
      * @param args          {@code String[]} Command line arguments
      */
     public static void main(String[] args) {
-        AnimalType.getAnimal("small").speak();
-        AnimalType.getAnimal("big").speak();
-        AnimalType.getAnimal("lazy").speak();
+        Animal small = AnimalType.getAnimal("small");
+        System.out.println(small.getClass().getName() + " speaks: " + small.speak());
+        Animal big = AnimalType.getAnimal("big");
+        System.out.println(big.getClass().getName() + " speaks: " + big.speak());
+        Animal lazy = AnimalType.getAnimal("lazy");
+        System.out.println(lazy.getClass().getName() + " speaks: " + lazy.speak());
 
         // TODO: Lab 6 Part 2-2 -- add an animal "Dog" here: criteria="loyal"; speak="woof"
         
-        AnimalType.getAnimal("loyal").speak();
+        Animal loyal = AnimalType.getAnimal("loyal");
+        System.out.println(loyal.getClass().getName() + " speaks: " + loyal.speak());
 
         // TODO: Lab 6 Part 2-3 -- remove the "small" animal here: Mouse
 
         try {
-            AnimalType.getAnimal("small").speak();
+            small = AnimalType.getAnimal("small");
+            System.out.println(small.getClass().getName() + " speaks: " + small.speak());
         } catch (Exception e) {
             System.out.println("Unkwon animal...");
         }
