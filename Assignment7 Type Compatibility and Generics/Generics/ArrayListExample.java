@@ -35,26 +35,27 @@ public class ArrayListExample {
 
     /**
      * Difficult Question: <br/>
-     * supersized_list -- takes an array list of some kind of geometric shapes
+     * supersize_list -- takes an array list of some kind of geometric shapes
      * and returns an array list of the same type, with the shapes super sized
      */
     // TODO: Assignment 7 Part 3 -- implement the "supersize_list" method
 
 
     // leave this main method as is:
+    /**
+     * Main entry
+     * @param args          {@code String[]} Command line arguments
+     */
     public static void main(String[] args) {
-
-        // Make a list of shapes, add a circle, a cone, and some empty shapes, and then describe all of the shapes
+        /* ================ Codes for Part 2 ================ */
+        // Make a list of shapes, add a circle, a cone and some empty shapes, and then describe all of the shapes
         System.out.println("Example with a list of shapes with a circle,  a cone, and some empty shapes");
         ArrayList<GeometricShape> shapes = new ArrayList<GeometricShape>();
         shapes.add(new Circle(1.0));
         shapes.add(new Cone(2.0, 3.0));
         add_empties(shapes);
         describe_all(shapes);
-
-        // Make a list of rectangles, and add some rectangles.
-        // Describe the rectangles, and calculate the total area 
-        // and total perimeter.
+        // Make a list of rectangles, add some rectangles, describe them, and calculate the total area and perimeter
         System.out.println();
         System.out.println("Example with a list of rectangles");
         ArrayList<Rectangle> rects = new ArrayList<Rectangle>();
@@ -65,9 +66,7 @@ public class ArrayListExample {
         System.out.println(total_area(rects));
         System.out.print("total perimeter of rectangles: ");
         System.out.println(total_perimeter(rects));
-
-        // Make a list of 2d shapes, and add a rectangle and a circle.
-        // Describe the shapes and calculate the total area.
+        // Make a list of 2d shapes, add a rectangle and a circle, describe them and calculate the total area.
         System.out.println();
         System.out.print("Example with a list of 2d shapes with a circle ");
         System.out.println("and a rectangle");
@@ -77,7 +76,6 @@ public class ArrayListExample {
         describe_all(flat_shapes);
         System.out.print("total area of flat shapes: ");
         System.out.println(total_area(flat_shapes));
-
         // Make a list of spheres and describe them
         ArrayList<Sphere> spheres = new ArrayList<Sphere>();
         spheres.add(new Sphere(10.0));
@@ -87,15 +85,27 @@ public class ArrayListExample {
         System.out.println("Example list of spheres");
         describe_all(spheres);
 
-        // Difficult Question: supersize different kinds of lists of shapes
-//        System.out.println();
-//        System.out.println("supersizing a list of rectangles");
-//        ArrayList<Rectangle> double_rects = supersize_list(rects);
-//        describe_all(double_rects);
-//        System.out.println();
-//        System.out.println("supersizing a list of spheres");
-//        ArrayList<Sphere> double_spheres = supersize_list(spheres);
-//        describe_all(double_spheres);
+        /* ================ Codes for Part 3 the difficult question ================ */
+        /*
+        // Make a list of rectangles and add some rectangles.
+        ArrayList<Rectangle> rects = new ArrayList<Rectangle>();
+        rects.add(new Rectangle(2.0, 3.0));
+        rects.add(new Rectangle(5.0, 5.0));
+        // Make a list of spheres
+        ArrayList<Sphere> spheres = new ArrayList<Sphere>();
+        spheres.add(new Sphere(10.0));
+        spheres.add(new Sphere(50.0));
+        spheres.add(new Sphere(0.0));
+        // Super-size them
+        System.out.println();
+        System.out.println("super-sizing a list of rectangles");
+        ArrayList<Rectangle> double_rects = supersize_list(rects);
+        describe_all(double_rects);
+        System.out.println();
+        System.out.println("super-sizing a list of spheres");
+        ArrayList<Sphere> double_spheres = supersize_list(spheres);
+        describe_all(double_spheres);
+        */
     }
 
 }
