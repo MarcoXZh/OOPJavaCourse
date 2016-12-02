@@ -8,6 +8,7 @@
   - Getting familiar with the class `Arrays` and the standard Java APIs
   - Extending your understanding of trees
   - Coding a more complex problem about trees
+  - Full mark: 25 points
 
 
 ## Source files
@@ -122,7 +123,7 @@ In this step, you are required to write another method called `sortGroups` which
 their length in ascending order. Luckily you just wrote heap sort in Lab 1, so work out how to reuse it. (Hint: consider
 hashing that maps objects into an integer)
 
-**DEMO this deliverable to the lab instructor.**
+**DEMO this deliverable to the lab instructor (5 points).**
 
 #### Step 3:
 
@@ -178,7 +179,7 @@ let's try write it as a tree: open the *HeapTree.java*, finish all TODOs, and ma
 Remember this is only a lab -- do not write a heap in such style in your work.
 
 
-**DEMO this deliverable to the lab instructor.**
+**DEMO this deliverable to the lab instructor (20 points).**
 
 
 

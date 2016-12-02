@@ -1,5 +1,7 @@
 # Assignment 6: Test Driven Development
 
+  - Full mark: 20 points
+
   - Source code: [*TDD*][Code1].
 
 

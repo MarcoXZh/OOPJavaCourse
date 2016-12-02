@@ -6,6 +6,8 @@
   - Getting familiar with Java collection framework
   - Getting familiar with skip list
   - Compile and run the code using Apache ANT
+  - Full mark: 25 points
+
 
 ## Source files
 
@@ -122,7 +124,7 @@ skip list class.
 linked list -- this means **the only element that can be directed accessed is the head**, and you have to travel through
 elements to find the one you need. Elements in `ArrayList` or `Vector` can be accessed by indexes.
 
-**DEMO this deliverable to the lab instructor.**
+**DEMO this deliverable to the lab instructor (20 points).**
 
 
 ## 5 Deliverable 2 -- ANT Build File
@@ -165,7 +167,7 @@ $ ant run
 
 Now by default, when you execute ANT, it will automatically compile, build a jar file and execute the code.
 
-**DEMO this deliverable to the lab instructor.**
+**DEMO this deliverable to the lab instructor (5 points).**
 
 
 

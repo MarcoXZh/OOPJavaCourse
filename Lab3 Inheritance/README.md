@@ -8,6 +8,7 @@
   - Learn the importance of `equals` and `hashCode`
   - Get familiar with Java design patterns
   - Learn how to calculate with big numbers in Java
+  - Full mark: 25 points
 
 
 ## Source files
@@ -169,7 +170,7 @@ The printed information shall be:
   - `Customer`: name + project price;
   - `ProjManager`: name + project name + final salary + project deadline.
 
-**DEMO this deliverable to the lab instructor.**
+**DEMO this deliverable to the lab instructor (10 points).**
 
 
 ## 3 Deliverable 2 -- `equals` and `hashCode`
@@ -184,7 +185,7 @@ discussed in the lecture.
 **Note 2**: if you override `equals` and `hashCode` of a subclass, you may need to override the superclass, too. This is
 because the hash code of the subclass relies on that of its superclass.
 
-**DEMO this deliverable to the lab instructor.**
+**DEMO this deliverable to the lab instructor (5 points).**
 
 
 ## 4 Deliverable 3 -- Java Design Pattern
@@ -196,7 +197,7 @@ Consider the code from *JavaDPExample.java* and provide answers to these questio
      practices are called design patterns in Java. Which design pattern is implemented?
   3. Explain why this is considered a good practice.
 
-**DISCUSS this deliverable with the lab instructor.**
+**DISCUSS this deliverable with the lab instructor (5 points).**
 
 
 ## 5 Deliverable 4 -- Big Numbers
@@ -222,7 +223,7 @@ uint64_t fnv(void *b, int c) {
 **Hint 3**: Don't forget the overflow of higher bits, or you may get incredibly large number. Such number is incorrect,
 and what's more, it may crash Eclipse.
 
-**Demo and discuss this deliverable with the lab instructor.**
+**Demo and discuss this deliverable with the lab instructor (5 points).**
 
 
 

@@ -1,6 +1,8 @@
 # Assignment 9: Refactoring II
 
-  - Source code: [Refactoring][Refactoring].
+  - Full mark: 20 points
+
+  - Source code: [*Refactoring*][Refactoring].
 
 In this assignment, you will explore refactoring by using the technique in conjunction with the Eclipse IDE to improve
 the quality of a trivial application. This assignment will provide you an existing application with an associated set of

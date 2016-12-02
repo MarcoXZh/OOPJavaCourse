@@ -5,6 +5,7 @@
 
   - Getting familiar with Generics in Java programming language
   - Applying them in a Java project to write generic classes, methods, ...
+  - Full mark: 35 points
 
 
 ## Source files
@@ -177,14 +178,14 @@ Finish the `calcPostfixExpression` method following the brief algorithm:
   - Repeat through all the symbols.
   - Finally, we have only one element in the stack -- it is the final result. Pop and print it out.
 
-**DEMO this deliverable to the lab instructor.**
+**DEMO this deliverable to the lab instructor (5 points).**
 
 
 ## 5 Deliverable 2 -- Generic Heap
 
 Make your heap sort algorithm generic. Please refer to the *GenericHeap.java*, and finish the TODO codes.
 
-**DEMO this deliverable to the lab instructor.**
+**DEMO this deliverable to the lab instructor (5 points).**
 
 
 ## 6 Deliverable 3 -- Generic Red Black Tree
@@ -193,7 +194,7 @@ Make your red black tree algorithm generic. Please refer to the *GenericRedBlack
 Note you need also finish the `delete` method.
 
 
-**DEMO this deliverable to the lab instructor.**
+**DEMO this deliverable to the lab instructor (25 points).**
 
 
 

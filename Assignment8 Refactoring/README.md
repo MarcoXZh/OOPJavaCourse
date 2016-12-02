@@ -1,5 +1,7 @@
 # Assignment 8: Refactoring
 
+  - Full mark: 20 points
+
   - Source code: N/A.
 
 For the assignment, you will need to find out information about refactoring patterns, which does not appear in the

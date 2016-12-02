@@ -6,6 +6,7 @@
   - Getting familiar with anonymous inner classes syntax and definition
   - Getting familiar with the purpose of using such classes
   - Get to know the Java reflection mechanism
+  - Full mark: 20 points
 
 
 ## Source files
@@ -171,7 +172,7 @@ Here is the solution:
 
 Write and run your code.
 
-**DEMO this deliverable to the lab instructor.**
+**DEMO this deliverable to the lab instructor (10 points).**
 
 
 ## 4 Deliverable 2 -- Last Call: Fix the Design Pattern
@@ -194,7 +195,7 @@ Rewrite `AnimalType`:
      animal types, but the code in `AnimalType` must remain CONSTANT whenever animal types are changed. **HINT**: think
      [*reflection*][JAVA_REFLECTION].
 
-**DEMO this deliverable to the lab instructor.**
+**DEMO this deliverable to the lab instructor (10 points).**
 
 Once you have fixed those two issues, our design pattern is pretty good. You can consider this new solution as
 industrial strength code! Hence, if you managed this -- you are good to go outside into the real world and code!!

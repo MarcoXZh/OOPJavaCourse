@@ -1,11 +1,13 @@
 # Assignment 7: Type Compatibility and Generics
 
-  - Source code: [Generics][Code1].
+  - Full mark: 20 points
+
+  - Source code: [*Generics*][Code1].
 
 
-In this assignment, you should submit three Java files for Question 1 and 2: ArrayExample.java, ArrayExampleGood.java,
-and ArrayListExample.java. For Question 3 the "difficult question", you should submit a folder that contains all of
-modified files.
+In this assignment, you should submit three Java files for Question 1 and 2: *ArrayExample.java*,
+*ArrayExampleGood.java*, and ArrayListExample.java. For Question 3 the "difficult question", you should submit a folder
+that contains all of modified files.
 
 These questions use a hierarchy of classes of simple geometric objects:
 
@@ -17,12 +19,12 @@ These questions use a hierarchy of classes of simple geometric objects:
   - **Rectangle.java**
   - **Sphere.java**
 
-**Test.java** is a little test class that you can run to make sure the other classes are working.
+*Test.java* is a little test class that you can run to make sure the other classes are working.
 
 
 ## 1. Java Arrays and Type Compatibility Rules
 
-Look at the skeleton for the `main` method in ArrayExample.java. Add some additional statements to it so that the code
+Look at the skeleton for the `main` method in *ArrayExample.java*. Add some additional statements to it so that the code
 compiles correctly, and when it is run, it raises a `java.lang.ArrayStoreException` when adding a cone to geoshapes
 (Adding a circle should be OK). Here is the exception you should get:
 
@@ -31,14 +33,14 @@ Exception in thread "main" java.lang.ArrayStoreException: Cone
     at ArrayExample.main(ArrayExample.java:10)
 ```
 
-Next, look at the code in ArrayExampleGood.java (This is exactly the same except for the class name). Add statements to
-this code as needed, so that the code compiles correctly, and runs without error. If you want, you can add some other
+Next, look at the code in *ArrayExampleGood.java* (This is exactly the same except for the class name). Add statements
+to this code as needed, so that the code compiles correctly, and runs without error. If you want, you can add some other
 statements to these `main` methods to get them printing something, but you don't need to.
 
 
 ## 2. Java Generics
 
-Look at the skeleton code in ArrayListExample.java. Add additional methods `total_area`, `total_perimeter`,
+Look at the skeleton code in *ArrayListExample.java*. Add additional methods `total_area`, `total_perimeter`,
 `describe_all`, and `add_empties`. Leave the `main` method untouched. You should get this output when you run the code:
 
 ```sh
@@ -75,7 +77,7 @@ Total number of shapes: 3
 ## 3. Difficult Question
 
 Turn in a separate copy of all of your files in a new directory (You'll need to touch many, perhaps all, of the files
-for the difficult question, not just ArrayListExample.java). Add a `supersize` method to each of your geometric shape
+for the difficult question, not just *ArrayListExample.java*). Add a `supersize` method to each of your geometric shape
 interfaces and classes that returns a new geometric shape, of the same type as the receiver, that is twice as large in
 each dimension as the receiver. For example, super sizing a cone with radius 10 and height 4 should return a new cone
 with radius 20 and height 8. The obvious declaration for `supersize` in `GeometricShape` would be:
@@ -85,7 +87,7 @@ public GeometricShape supersize();
 ```
 
 However, we want the type of `supersize` for `Cone` to say that it returns a `Cone`, but not a `GeometricShape`. An
-immediate solution is to generalize the method:
+minimal-change solution is to generalize the method:
 
 ```java
 public interface GeometricShape {
@@ -101,8 +103,8 @@ public Cone supersize() {
 }
 ```
 
-However, it is not good, because we can even return a non-`GeometricShape`, which is not correct at all! So a better way
-is to add a type parameter:
+However, it is not bug-free, because we can even return a non-`GeometricShape`, which is not correct at all! So the next
+solution could be adding a type parameter:
 
 ```java
 public interface GeometricShape {
@@ -115,8 +117,8 @@ In this condition, `supersize` can only return geometric shapes. But this is not
 is possible that a `Rectangle.supersize` returns a circle.
 
 Make the appropriate modifications to all the geometric shape classes and add a method `supersize_list` in
-ArrayListExample.java, so that it takes an array list of some kind of geometric shapes (for example, rectangles) and
-returns an array list of the same type, with the shapes super sized. The skeleton code in ArrayListExample.java includes
+*ArrayListExample.java*, so that it takes an array list of some kind of geometric shapes (for example, rectangles) and
+returns an array list of the same type, with the shapes super-sized. The skeleton code in ArrayListExample.java includes
 some commented-out lines at the end that use the `supersize_list` method. Uncomment them (but don't otherwise change
 them). You should get the following additional output:
 

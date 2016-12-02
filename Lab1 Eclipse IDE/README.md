@@ -7,6 +7,7 @@
   - Creating a Java project; creating and editing a Java program
   - Adding a library to the build path
   - Running project inside and outside Eclipse
+  - Full mark: 20 points
 
 
 ## Source files
@@ -82,7 +83,7 @@ Select your project => *File* => *New* ⇒ *Class* => Name the class => check *`
 
 For this lab, just copy the source file HeapSort.java and paste into the *src* folder of the project.
 
-![New Java Class](https://raw.githubusercontent.com/MarcoXZh/OOPJavaCourse/master/Lab1%20Eclipse%20IDE/Fig_NewClass.png)
+![New Java Class](https://bitbucket.org/MarcoXZh/javacourse/raw/master/Lab1%20Eclipse%20IDE/Fig_NewClass.png)
 
 #### Step 4: Implement your class
 
@@ -92,7 +93,7 @@ Finish the `sort` method.
 
 Run the code (*Run as* => *Java application*).
 
-**DEMO this deliverable to the lab instructor.**
+**DEMO this deliverable to the lab instructor (10 points).**
 
 
 ## 3 Deliverable 2 -- Add a Library to the Build Path
@@ -152,7 +153,7 @@ Right-click on your project => *Build Path* => *Configure Build Path* => *Add Ex
 
 Errors should disappear and you would be able to run your code.
 
-**DEMO this deliverable to the lab instructor.**
+**DEMO this deliverable to the lab instructor (5 points).**
 
 
 ## 4 Deliverable 3 -- Run Your Java Code outside of Eclipse
@@ -179,7 +180,7 @@ Click *Finish*, and you are ready to go:
 java −jar HeapSort.jar
 ```
 
-![Runnable FAR File Export](https://raw.githubusercontent.com/MarcoXZh/OOPJavaCourse/master/Lab1%20Eclipse%20IDE/Fig_ExportJAR.png)
+![Runnable FAR File Export](https://bitbucket.org/MarcoXZh/javacourse/raw/master/Lab1%20Eclipse%20IDE/Fig_ExportJAR.png)
 
 
 ### 4.2 Compile and Run by JDK
@@ -218,7 +219,7 @@ javac HeapSort.java     # Now you can find the file HeapSort.class at your home 
 java HeapSort           # Do not add the ".class" extension
 ```
 
-**DEMO this deliverable to the lab instructor.**
+**DEMO this deliverable to the lab instructor (5 points).**
 
 
 
