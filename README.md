@@ -55,6 +55,12 @@
   6. [Anonymous Inner Class and Reflection][lab6]
 
 
+## Project
+
+  1. [The Connect4 Game][proj1]
+
+
+
 
 [kb1]: https://github.com/MarcoXZh/OOPJavaCourse/blob/master/EclipseTips.md
 [kb2]: https://github.com/MarcoXZh/OOPJavaCourse/tree/master/JavaWindowsConfiguration.md
@@ -73,3 +79,4 @@
 [lab4]: https://github.com/MarcoXZh/OOPJavaCourse/tree/master/Lab4%20Generics/
 [lab5]: https://github.com/MarcoXZh/OOPJavaCourse/tree/master/Lab5%20Java%20Collections%20Framework/
 [lab6]: https://github.com/MarcoXZh/OOPJavaCourse/tree/master/Lab6%20Anonymous%20Inner%20Class/
+[proj1]: https://github.com/MarcoXZh/OOPJavaCourse/tree/master/Project%20Connect4/
